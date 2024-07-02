@@ -1,0 +1,67 @@
+/* Ini CSS */
+
+.nav-container {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+    /* For Image Icon */
+    background-image: url(../Assets/pp.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+     /* For Image Icon */
+     background-image: url(../Assets/duck-ducky.gif);
+     background-size: cover;
+     border-radius: 50%;
+}
+
+.profile-1 {
+    background-image: url(../Assets/duck-ducky.gif);
+}
+
+.profile-2 {
+    background-image: url(../Assets/Pixel-Art-Frog-Animation.gif);
+}
+
+.profile-3 {
+    background-image: url(../Assets/source.gif);
+}
+
+.divider {
+    flex: 2;
+}
